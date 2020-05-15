@@ -1,5 +1,35 @@
 @charset "UTF-8";
 @import url("Text Links.css");
+#figcaption {
+    color: #AA6328;
+    text-align: left;
+    font-weight: 200;
+    font-family: courier-std, monospace;
+    font-style: italic;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+.hover:hover {
+-webkit-filter: brightness(0.8);
+filter: brightness(0.8);
+}
+	
+.coverimage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%; }
+
+.legend {
+	width: 500;
+	margin:0 auto;
+	font-family: courier-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #20343B;
+    
+
 
 }
 #footer{text-align: center;
@@ -143,40 +173,6 @@
   /* grid-row: 6 / span 3; */
 }@charset "UTF-8";
 /* CSS Document */
-#figcaption {
-    color: #AA6328;
-    text-align: left;
-    font-weight: 200;
-    font-family: courier-std, monospace;
-    font-style: italic;
-    font-size: 12pt;
-    margin-top: 5px;
-}
-.hover:hover {
--webkit-filter: brightness(0.8);
-filter: brightness(0.8);
-}
-	
-.coverimage {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: 5%; }
-
-.legend {
-	width: 500;
-	margin:0 auto;
-	font-family: courier-std, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14pt;
-    color: #20343B;
-    
 
 }
 
-@media (max-width: 768px){
-}
-
-@media (max-width: 768px){
-}
