@@ -5,15 +5,20 @@
     margin-right: 10%;
 	font-family: courier-std, monospace;
 }
-
-@media (min-width: 769px){
-	#titleimage {
+	#footer{text-align: center;
+    font-size: 16pt;
+    font-weight: 100;
+    margin-top: 5%;
+    margin-bottom: 30px;}
+}
+#titleimage {
+		padding-bottom: 3%;
 		width: 100%;
 		height:100%;
 }
 	#article{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 10%;
 	
     font-family: courier-std, monospace;
@@ -24,19 +29,17 @@
 	}
 	
 	#title {
-	font-family:Gotham, "Helvetica Neue", "sans-serif";
+	font-family:courier-std, monospace;
 	color: #AA6328;
     margin-left: 10%;
 		margin-right:10%;
     margin-top: 15%;
 	}
 
+
+
+@media (min-width: 769px){
 	
-	#footer{text-align: center;
-    font-size: 16pt;
-    font-weight: 100;
-    margin-top: 5%;
-    margin-bottom: 30px;}
 *,
 *::after,
 *::before {
