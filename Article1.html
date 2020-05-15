@@ -1,5 +1,6 @@
 <html>
 	<head> <meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://use.typekit.net/lce0crc.css">
 		<link rel="shortcut icon" type="image/png" href="favicon.png">
 		<link href="lightbox.css" rel="stylesheet" type="text/css">
@@ -72,6 +73,13 @@ function showSlides(n) {
 
 		
 	</header>
+		<script type="text/javascript">
+jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+	</script>
 	
 		<div id="title"> 
 			<img src="img120.jpg" alt="" width="800" height="480" class="hover" id="titleimage" onclick="openModal();currentSlide(1)"/>
