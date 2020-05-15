@@ -29,9 +29,9 @@
     background: #FFFFFF;
     font-size: 18pt;
     right: 2rem;
-    background-size: 500% 0
-$;
-    background-size: 500% 500%;
+	width: 100%;
+	height: 500%;
+	
 }
  
 .expand {
@@ -40,8 +40,8 @@ $;
 
 .mobile-nav {
     float: right;
-    margin-right: 30px;
-    margin-top: 10px;
+    margin-right: 40px;
+    margin-top: 40px;
     display: block;
     left: 1032px;
 }
@@ -91,6 +91,8 @@ $;
     text-align: right;
     font-size: 12pt;
     right: 2rem;
+	width: 90%;
+	background: #FFFFFF;
 }
  
 .expand {
