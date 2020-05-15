@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+a.nav:link {
+    color: #20343B;
+    text-decoration: none;
+}
+a.nav:hover {
+color: #20343B;
+text-decoration: line-through;
+}
+a.nav:visited {
+color: #20343B;
+	text-decoration: none;}
+a.title:link {
+    color: #AA6328;
+    text-decoration: none;
+}
+a.title:hover {
+color: #AA6328;
+text-decoration: line-through;
+}
+a.title:visited {
+color: #AA6328;
+	text-decoration: none;}
+

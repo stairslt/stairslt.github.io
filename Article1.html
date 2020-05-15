@@ -1,0 +1,135 @@
+<html>
+	<head> <meta charset="UTF-8">
+<link href="../Web/Current/Logo.css" rel="stylesheet" type="text/css">
+<link href="../Web/Current/Text Links2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/lce0crc.css">
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+		<link href="lightbox.css" rel="stylesheet" type="text/css">
+<title>Journal</title>
+		<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+// JavaScript Document
+</head>
+	<body>
+<header class="sticky"> 		
+	<p id="Menu1"> <a href= "../Web/Current/Gallery" class="nav" > Gallery&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;
+	  <a href="../Web/Current/Journal" class="nav" >Journal&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;
+			<a href="../Web/Current/Odds+Ends" class="nav" >Odds+Ends&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;
+			<a href= "../Web/Current/About" class="nav">About&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;
+			<a href="../Web/Current/Publication" class="nav" >Publication&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;
+			<a href="../Web/Current/Contact" class="nav" >Contact</a>  </p>
+	<a href="../Web/Current/Index"><img src="../Web/Current/300ppi/Logo.png" alt="" width="100" height="31" id="logo"></a> 	
+</header>
+		<div id="title"> 
+			<img src="img120.jpg" alt="" width="800" height="480" class="hover" id="titleimage" onclick="openModal();currentSlide(1)"/>
+			
+		<p id="title2"> Title: "Unprecedented Thoughts"</p>
+		<p id="title2">Date: 04.04.20</p>
+		<p id="title2">Author: Lucien Stairs</p>
+		<p id="title2">Photographer: Lucien Stairs</p>
+		<div id="body">
+			
+			<article id="Article">
+<p><strong>Last March I borrowed a copy of Albert Camus’ The Plague from my friend Abbas.</strong> It was a good read. The premise—a small Algerian town locked down for months because of a perilous new disease—seemed so distant. Yesterday I moved out of the dorms and into a vacant room in Nathan’s house as the current pandemic sweeps away all remnants of normalcy. </p>
+<p> The view from my third-floor window peers onto the back of a row of houses. Unknowingly it seems, these houses are exposing themselves to me. Things move fast in this part of town I guess. We only just met. </p>
+<p> Never have so many plans been cancelled in a matter of days. Summer is up in the air, the gear shop I work at has shuttered its doors, friends are back home, classes are online, and I am occupying a new space. The uncertainty feels so heavy. Though, there is some solidarity that comes with knowing that the uncertainty is here to stay and that it is felt by everyone. Maybe we all have some time to collectively make a dent in that pile of books that people keep gifting us. I’m not sure that is as comforting as I want it to be. The word unprecedented is being thrown around a lot lately. So is I guess we will play it by ear. Usually I like the idea of playing it by ear, going with the flow, taking it a day at a time. Under happier circumstances, those phrases symbolize fearless exploration and a willingness to live in the moment. In somber times they are spoken with a wavering voice. They are harbingers of fear, of I don’t want to get my hopes up only to have them crushed by an unforeseen calamity. </p><p> Lauryn just texted me. A lady started crying in the coffee shop today. Stocking up on coffee, she burst into tears and Lauryn had to stand there—from at least 6 feet away. I wonder if crying in public is common these days. </p>
+<p> The view from my third-floor window peers onto the back of a row of houses. Unknowingly it seems, these houses are exposing themselves to me. Things move fast in this part of town I guess. We only just met. </p>
+<p> Never have so many plans been cancelled in a matter of days. Summer is up in the air, the gear shop I work at has shuttered its doors, friends are back home, classes are online, and I am occupying a new space. The uncertainty feels so heavy. Though, there is some solidarity that comes with knowing that the uncertainty is here to stay and that it is felt by everyone. Maybe we all have some time to collectively make a dent in that pile of books that people keep gifting us. I’m not sure that is as comforting as I want it to be. The word unprecedented is being thrown around a lot lately. So is I guess we will play it by ear. Usually I like the idea of playing it by ear, going with the flow, taking it a day at a time. Under happier circumstances, those phrases symbolize fearless exploration and a willingness to live in the moment. In somber times they are spoken with a wavering voice. They are harbingers of fear, of I don’t want to get my hopes up only to have them crushed by an unforeseen calamity. </p><p> Lauryn just texted me. A lady started crying in the coffee shop today. Stocking up on coffee, she burst into tears and Lauryn had to stand there—from at least 6 feet away. I wonder if crying in public is common these days. </p>
+          </article>
+    </div>
+		</div>
+		<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img120.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img031.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img126.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img223.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img120.jpg" onclick="currentSlide(1)" >
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img031.jpg" onclick="currentSlide(2)" >
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img126.jpg" onclick="currentSlide(3)" >
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img223.jpg" onclick="currentSlide(4)" >
+    </div>
+  </div>
+</div>
+	<footer id="footer"><img src="../Web/Current/1000ppi/Asset 3.png" alt="" width="75" height="53"></footer>
+</body>
+</html>

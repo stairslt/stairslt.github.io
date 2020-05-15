@@ -1,0 +1,126 @@
+@charset "UTF-8";
+#bodytext {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+	font-family: courier-std, monospace;
+}
+
+@media (min-width: 769px){
+	
+	#footer{text-align: center;
+    font-size: 16pt;
+    font-weight: 100;
+    margin-top: 5%;
+    margin-bottom: 30px;}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+.container {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--2 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 8;
+
+  /** Alternative Syntax **/
+  /* grid-column: 3 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--3 {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 11;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4;
+  grid-row: 1 / span 5; */
+}
+
+.gallery__item--4 {
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 6;
+  grid-row-end: 11;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4;  */
+  /* grid-row: 3 / span 3; */
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4; */
+  /* grid-row: 6 / span 3; */
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4; */
+  /* grid-row: 6 / span 3; */
+}@charset "UTF-8";
+/* CSS Document */
+#figcaption {
+    color: #AA6328;
+    text-align: left;
+    font-weight: 200;
+    font-family: courier-std, monospace;
+    font-style: italic;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+.hover:hover {
+-webkit-filter: brightness(0.8);
+filter: brightness(0.8);
+}
+
+}

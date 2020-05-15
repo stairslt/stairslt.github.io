@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@media (max-width: 768px){
+	
+	#bodytext {
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 12%;
+	font-family: courier-std, monospace;
+}
+	
+	#footer{text-align: center;
+    font-size: 16pt;
+    font-weight: 100;
+    margin-top: 5%;
+    margin-bottom: 30px;}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+.container {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(30, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 7;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--2 {
+  grid-column-start: 5;
+  grid-column-end: 12;
+  grid-row-start: 8;
+  grid-row-end: 14;
+
+  /** Alternative Syntax **/
+  /* grid-column: 3 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--3 {
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 15;
+  grid-row-end: 21;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4;
+  grid-row: 1 / span 5; */
+}
+
+.gallery__item--4 {
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 6;
+  grid-row-end: 11;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4;  */
+  /* grid-row: 3 / span 3; */
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4; */
+  /* grid-row: 6 / span 3; */
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4; */
+  /* grid-row: 6 / span 3; */
+}@charset "UTF-8";
+/* CSS Document */
+#figcaption {
+    color: #AA6328;
+    text-align: left;
+    font-weight: 200;
+    font-family: courier-std, monospace;
+    font-style: italic;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+.hover:hover {
+-webkit-filter: brightness(0.8);
+filter: brightness(0.8);
+}
+#footer{text-align: center;
+    font-size: 16pt;
+    font-weight: 100;
+    margin-top: 5%;
+    margin-bottom: 30px;}
+	
+	}
+.coverimage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%; }
+
+.legend {
+	width: 500;
+	margin:0 auto;
+	font-family: courier-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #20343B;
+    
+
+}
