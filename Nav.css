@@ -1,3 +1,63 @@
+@media (max-width: 768px){
+.menu-btn div {
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;}
+
+.menu-btn span {
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 20px 0;
+    background: #20343B;
+    z-index: 99;
+	}
+
+.responsive-menu{
+    position: absolute;
+    display: none;
+    color: #20343B;
+    font-family: courier-std, monospace;
+    text-align: right;
+    font-size: 14pt;
+    right: 2rem;
+}
+ 
+.expand {
+    display: block;
+}
+
+.mobile-nav {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    display: block;
+    left: 1032px;
+}
+.sticky {
+    position: fixed;
+	opacity: 80%;
+    top: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 5px;
+	z-index: 1;
+
+}
+.logo {
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    float: left;
+	}}
+@media (min-width: 769px){
 .menu-btn div {
     position: absolute;
     left: 100%;
@@ -54,5 +114,4 @@
     margin-left: 20px;
     padding-top: 10px;
     margin-top: 10px;
-    float: left;
-}
+	float: left;}}

@@ -14,24 +14,7 @@
 filter: brightness(0.8);
 }
 	
-.coverimage {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: 5%; }
 
-.legend {
-	width: 500;
-	margin:0 auto;
-	font-family: courier-std, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14pt;
-    color: #20343B;
-    
-
-
-}
 #footer{text-align: center;
     font-size: 16pt;
     font-weight: 100;
@@ -39,6 +22,23 @@ filter: brightness(0.8);
     margin-bottom: 30px;}
 
 @media (max-width: 768px){
+	.legend {
+	width: 500;
+	margin:0 auto;
+	font-family: courier-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pt;
+    color: #20343B;}
+	
+	.coverimage {
+	display: block;
+		width: 90%;
+		
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%; }
+	
 	#titleimage {
 		padding-bottom: 3%;
 		width: 100%;
@@ -52,7 +52,7 @@ filter: brightness(0.8);
 	
     font-family: courier-std, monospace;
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 14pt;
     text-align: left;
     color: #20343B;
 	}
@@ -60,6 +60,7 @@ filter: brightness(0.8);
 	#title {
 	font-family:courier-std, monospace;
 	color: #AA6328;
+	font-size: 14pt;
     margin-left: 10%;
 		margin-right:10%;
     margin-top: 20%;
@@ -70,6 +71,7 @@ filter: brightness(0.8);
     margin-top: 20%;
     margin-left: 20%;
     margin-right: 12%;
+		font-size: 14pt;
 	font-family: courier-std, monospace;
 }
 	
@@ -176,4 +178,165 @@ filter: brightness(0.8);
 /* CSS Document */
 
 }
+@media (min-width: 769px){
+	.legend {
+	width: 500;
+	margin:0 auto;
+	font-family: courier-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #20343B;}
+	
+	.coverimage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%; }
+	
+	#bodytext {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+	font-family: courier-std, monospace;
+}
+	
+	#titleimage {
+		padding-bottom: 3%;
+		width: 100%;
+		height:100%;
+}
+	#article{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	
+    font-family: courier-std, monospace;
+    font-weight: normal;
+    font-size: 12pt;
+    text-align: left;
+    color: #20343B;
+	}
+	
+	#title {
+	font-family:courier-std, monospace;
+	color: #AA6328;
+    margin-left: 10%;
+		margin-right:10%;
+    margin-top: 15%;
+	}
+
+
+	
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+.container {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--2 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 8;
+
+  /** Alternative Syntax **/
+  /* grid-column: 3 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--3 {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 11;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4;
+  grid-row: 1 / span 5; */
+}
+
+.gallery__item--4 {
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 6;
+  grid-row-end: 11;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4;  */
+  /* grid-row: 3 / span 3; */
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4; */
+  /* grid-row: 6 / span 3; */
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4; */
+  /* grid-row: 6 / span 3; */
+}@charset "UTF-8";
+/* CSS Document */
+#figcaption {
+    color: #AA6328;
+    text-align: left;
+    font-weight: 200;
+    font-family: courier-std, monospace;
+    font-style: italic;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+.hover:hover {
+-webkit-filter: brightness(0.8);
+filter: brightness(0.8);
+}
+}
+
 
