@@ -26,9 +26,10 @@
     color: #20343B;
     font-family: courier-std, monospace;
     text-align: right;
-	background: #FFFFFF;
+    background: #FFFFFF;
     font-size: 18pt;
     right: 2rem;
+    background-size: 100% auto;
 }
  
 .expand {
