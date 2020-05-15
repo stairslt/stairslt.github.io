@@ -21,7 +21,7 @@ filter: brightness(0.8);
     margin-top: 5%;
     margin-bottom: 30px;}
 
-@media (max-width: 768px){
+@media (max-width : 1000px ){
 	.legend {
 	width: 500;
 	margin:0 auto;
@@ -178,7 +178,7 @@ filter: brightness(0.8);
 /* CSS Document */
 
 }
-@media (min-width: 769px){
+@media (min-width : 1001px ){
 	.legend {
 	width: 500;
 	margin:0 auto;
@@ -338,5 +338,3 @@ filter: brightness(0.8);
 filter: brightness(0.8);
 }
 }
-
-
