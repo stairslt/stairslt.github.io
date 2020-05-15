@@ -25,6 +25,7 @@ filter: brightness(0.8);
 	
 	.legend {
 	margin-left: 10%;
+		margin-right: 10%;
 	font-family: courier-std, monospace;
     font-style: normal;
     font-weight: 400;

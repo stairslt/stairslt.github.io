@@ -29,7 +29,9 @@
     background: #FFFFFF;
     font-size: 18pt;
     right: 2rem;
-    background-size: 500% auto;
+    background-size: 500% 0
+$;
+    background-size: 500% 500%;
 }
  
 .expand {
