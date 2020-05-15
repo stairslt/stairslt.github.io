@@ -13,9 +13,9 @@
 
 .menu-btn span {
     display: block;
-    width: 60px;
-    height: 2px;
-    margin: 20px 0;
+    width: 70px;
+    height: 3px;
+    margin: 25px 0;
     background: #20343B;
     z-index: 99;
 	}
