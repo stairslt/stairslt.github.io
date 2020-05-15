@@ -28,7 +28,7 @@ filter: brightness(0.8);
 	font-family: courier-std, monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 16pt;
+    font-size: 18pt;
     color: #20343B;}
 	
 	.coverimage {
@@ -41,8 +41,8 @@ filter: brightness(0.8);
 	
 	#titleimage {
 		padding-bottom: 3%;
-		width: 80%;
-		height:80%;
+		max-width: 100%;
+		height:auto;
 }
 	
 	#article{
