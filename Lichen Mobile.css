@@ -53,7 +53,7 @@ filter: brightness(0.8);
 	
     font-family: courier-std, monospace;
     font-weight: normal;
-    font-size: 14pt;
+    font-size: 16pt;
     text-align: left;
     color: #20343B;
 	}
@@ -61,7 +61,7 @@ filter: brightness(0.8);
 	#title {
 	font-family:courier-std, monospace;
 	color: #AA6328;
-	font-size: 14pt;
+	font-size: 16pt;
     margin-left: 10%;
 		margin-right:10%;
     margin-top: 20%;
