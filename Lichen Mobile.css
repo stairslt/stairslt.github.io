@@ -115,7 +115,7 @@ filter: brightness(0.8);
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 1;
-  grid-row-end: 7;
+  grid-row-end: 8;
 
   /** Alternative Syntax **/
   /* grid-column: 1 / span 2;  */
@@ -125,8 +125,8 @@ filter: brightness(0.8);
 .gallery__item--2 {
   grid-column-start: 2;
   grid-column-end: 9;
-  grid-row-start: 8;
-  grid-row-end: 17;
+  grid-row-start: 9;
+  grid-row-end: 18;
 
   /** Alternative Syntax **/
   /* grid-column: 3 / span 2;  */
@@ -136,8 +136,8 @@ filter: brightness(0.8);
 .gallery__item--3 {
   grid-column-start: 5;
   grid-column-end: 12;
-  grid-row-start: 18;
-  grid-row-end: 27;
+  grid-row-start: 19;
+  grid-row-end: 28;
 
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4;
