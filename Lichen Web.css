@@ -7,6 +7,30 @@
 }
 
 @media (min-width: 769px){
+	#titleimage {
+		width: 100%;
+		height:100%;
+}
+	#article{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	
+    font-family: courier-std, monospace;
+    font-weight: normal;
+    font-size: 12pt;
+    text-align: left;
+    color: #20343B;
+	}
+	
+	#title {
+	font-family:Gotham, "Helvetica Neue", "sans-serif";
+	color: #AA6328;
+    margin-left: 10%;
+		margin-right:10%;
+    margin-top: 15%;
+	}
+
 	
 	#footer{text-align: center;
     font-size: 16pt;
@@ -127,3 +151,4 @@ filter: brightness(0.8);
 
 @media (max-width:768px){
 }
+
