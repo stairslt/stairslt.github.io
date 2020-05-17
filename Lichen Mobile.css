@@ -1,14 +1,6 @@
 @charset "UTF-8";
 @import url("Text Links.css");
-#figcaption {
-    color: #AA6328;
-    text-align: left;
-    font-weight: 200;
-    font-family: courier-std, monospace;
-    font-style: italic;
-    font-size: 12pt;
-    margin-top: 5px;
-}
+
 .hover:hover {
 -webkit-filter: brightness(0.8);
 filter: brightness(0.8);
@@ -22,6 +14,15 @@ filter: brightness(0.8);
     margin-bottom: 30px;}
 
 @media (max-width : 1000px ){
+	#figcaption {
+    color: #AA6328;
+    text-align: left;
+    font-weight: 200;
+    font-family: courier-std, monospace;
+    font-style: italic;
+    font-size: 18pt;
+    margin-top: 5px;
+}
 	
 	.legend {
 	margin-left: 10%;
@@ -180,6 +181,15 @@ filter: brightness(0.8);
 
 }
 @media (min-width : 1001px ){
+		#figcaption {
+    color: #AA6328;
+    text-align: left;
+    font-weight: 200;
+    font-family: courier-std, monospace;
+    font-style: italic;
+    font-size: 12pt;
+    margin-top: 5px;
+}
 	.legend {
 	width: 500;
 	margin:0 auto;
@@ -197,8 +207,8 @@ filter: brightness(0.8);
 	
 	#bodytext {
     margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 	font-family: courier-std, monospace;
 }
 	
